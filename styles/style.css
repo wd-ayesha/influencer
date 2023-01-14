@@ -1,0 +1,36 @@
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header styles */
+header{
+    width: 1140px;
+    margin: 85px 120px 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-text{
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+.manu-items{
+    display: flex;
+    gap: 34px;
+}
+.manu-items li{
+    list-style: none;
+}
+.manu-items li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    transition: .5s;
+}
+.manu-items li a:hover{
+    color: #E02C6D;;
+}
