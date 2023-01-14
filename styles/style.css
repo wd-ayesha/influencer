@@ -8,6 +8,7 @@ header{
     width: 1140px;
     margin: 85px 120px 100px;
 }
+/* navbar styles */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -34,3 +35,109 @@ header{
 .manu-items li a:hover{
     color: #E02C6D;;
 }
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+}
+.banner-description{
+    font-weight: 600;
+    color: #3A3A3A;
+    margin: 16px 0 30px 0;
+}
+.banner-btn{
+    background: #E02C6D;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 40px 10px 24px;
+    border-radius: 41px;
+    border: 0;
+    text-decoration: none;
+}
+.banner-img{
+    margin-right: 20px;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 460px;
+    height: 460px;
+    margin-top: 40px;
+}
+.banner-img img{
+    width: 400px;
+    padding: 30px;
+}
+/* main styles */
+/* icons section styles */
+.icons{
+    width: 1110px;
+    margin: 0 auto;
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+.icon{
+    margin-left: 60px;
+    padding: 40px 0;
+}
+/* popular section styles */
+.popular{
+    width: 1047px;
+    margin: 100px 196px;
+}
+.popular h2{
+    font-weight: 600;
+font-size: 28px;
+color: #3A3A3A;
+text-align: center;
+margin-bottom: 30px;
+}
+.projects{
+   display: grid;
+   grid-template-columns: repeat(3, 3fr);
+   grid-column-gap: 30px;
+   grid-row-gap: 30px;
+}
+.project{
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.project-title{
+    font-weight: 500;
+    font-size: 28px;
+    color: #18191F;
+    padding: 14px 0;
+}
+.price{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    padding-bottom: 8px;
+}
+.fa-star.filled{
+   color: #FB8200;
+}
+.fa-star.empty{
+ 
+}
+span{
+    font-weight: 700;
+font-size: 14px;
+}
+.description{
+    margin-top: 10px;
+}
+.description li{
+    font-weight: 700;
+font-size: 14px;
+color: #787885;
+list-style: none;
+}
+
